@@ -1,16 +1,15 @@
 compile & install on ubuntu 16.04.3
 #1. Compile#
 
-1. Download jdk, [javacc](https://javacc.org/downloads/javacc-6.0.zip "javacc"), [apache ant](http://www-us.apache.org/dist/ant/binaries/apache-ant-1.10.1-bin.tar.gz "apache ant") and [junit package](http://repo1.maven.org/maven2/org/junit/ "junit package").
+I. Download jdk, [javacc](https://javacc.org/downloads/javacc-6.0.zip "javacc"), [apache ant](http://www-us.apache.org/dist/ant/binaries/apache-ant-1.10.1-bin.tar.gz "apache ant") and [junit package](http://repo1.maven.org/maven2/org/junit/ "junit package").
 
 
-2. Edit **build.properties** file:
+II. Edit **build.properties** file:
 
  - javacc.home=*your_javacc_path*
  - libs.junit.classpath=*your_junit_file_path*
 
-3. configure the environment and compile
-
+III. configure the environment and compile
 
     export SGE_ROOT=/usr/local/gridengine
     export JAVA_HOME=*your_java_home_path*
