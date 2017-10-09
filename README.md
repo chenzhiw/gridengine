@@ -1,5 +1,5 @@
 compile & install on ubuntu 16.04.3
-#1. Compile#
+# 1. Compile #
 
 I. Download jdk, [javacc](https://javacc.org/downloads/javacc-6.0.zip "javacc"), [apache ant](http://www-us.apache.org/dist/ant/binaries/apache-ant-1.10.1-bin.tar.gz "apache ant") and [junit package](http://repo1.maven.org/maven2/org/junit/ "junit package").
 
@@ -26,5 +26,5 @@ III. configure the environment and compile
     ./aimk
 	
 
-#2. Install#
+# 2. Install #
     sudo -E ./inst_sge -m -x -auto inst_template.conf
